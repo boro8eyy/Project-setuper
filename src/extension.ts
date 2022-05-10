@@ -6,14 +6,20 @@ import { deleteProject } from "./commands/deleteProject";
 
 function activate(context: vscode.ExtensionContext) {
 	var commands = [
-		vscode.commands.registerCommand("project-setuper.initProject", initProject),
 		vscode.commands.registerCommand(
-			"project-setuper.addNewProject",
+			"project-template.initProject",
+			initProject
+		),
+		vscode.commands.registerCommand(
+			"project-template.addNewProject",
 			addNewProject
 		),
-		vscode.commands.registerCommand("project-setuper.editProject", editProject),
 		vscode.commands.registerCommand(
-			"project-setuper.deleteProject",
+			"project-template.editProject",
+			editProject
+		),
+		vscode.commands.registerCommand(
+			"project-template.deleteProject",
 			deleteProject
 		),
 	];
