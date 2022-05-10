@@ -4,7 +4,7 @@ import { IProject } from "../interfaces";
 import { removeByIndex } from "../utils/removeByIndex";
 
 const settingsFilePath =
-	vscode.extensions.getExtension("undefined_publisher.project-setuper")
+	vscode.extensions.getExtension("boro8eyy.project-setuper")
 		?.extensionPath + "\\settings.json";
 
 export function deleteProject() {

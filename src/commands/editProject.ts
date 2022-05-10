@@ -3,8 +3,8 @@ import * as fs from "fs";
 import { IProject } from "../interfaces";
 
 const settingsFilePath =
-	vscode.extensions.getExtension("undefined_publisher.project-setuper")
-		?.extensionPath + "//settings.json";
+	vscode.extensions.getExtension("boro8eyy.project-setuper")?.extensionPath +
+	"//settings.json";
 
 export async function editProject() {
 	var settingJson = JSON.parse(fs.readFileSync(settingsFilePath, "utf8"));

@@ -4,7 +4,7 @@ import { IProject } from "../interfaces";
 import { newID } from "../utils/generateID";
 
 const settingsFilePath =
-	vscode.extensions.getExtension("undefined_publisher.project-setuper")
+	vscode.extensions.getExtension("boro8eyy.project-setuper")
 		?.extensionPath + "\\settings.json";
 
 export async function addNewProject() {

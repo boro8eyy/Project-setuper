@@ -4,7 +4,7 @@ import * as ncp from "ncp";
 import { IProject } from "../interfaces";
 
 const settingsFilePath =
-	vscode.extensions.getExtension("undefined_publisher.project-setuper")
+	vscode.extensions.getExtension("boro8eyy.project-setuper")
 		?.extensionPath + "\\settings.json";
 
 export function initProject() {

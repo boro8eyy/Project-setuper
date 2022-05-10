@@ -1,6 +1,6 @@
 {
-	"name": "project-setuper",
-	"displayName": "project-setuper",
+	"name": "project-template",
+	"displayName": "project-template",
 	"description": "",
 	"version": "0.0.1",
 	"icon": "images/icon.png",
@@ -8,15 +8,17 @@
 	"publisher": "boro8eyy",
 	"keywords": [
 		"project",
-		"setuper",
+		"template",
+		"folder templates",
+		"project template",
 		"folder struct"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/boro8eyy/project-setuper.git"
+		"url": "https://github.com/boro8eyy/project-template.git"
 	},
 	"bugs": {
-		"url": "https://github.com/boro8eyy/project-setuper/issues",
+		"url": "https://github.com/boro8eyy/project-template/issues",
 		"email": "bogdanhohlov1976@gmail.com"
 	},
 	"engines": {
@@ -26,28 +28,28 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:project-setuper.initProject",
-		"onCommand:project-setuper.addNewProject",
-		"onCommand:project-setuper.editProject",
-		"onCommand:project-setuper.deleteProject"
+		"onCommand:project-template.initProject",
+		"onCommand:project-template.addNewProject",
+		"onCommand:project-template.editProject",
+		"onCommand:project-template.deleteProject"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "project-setuper.initProject",
+				"command": "project-template.initProject",
 				"title": "Init Project"
 			},
 			{
-				"command": "project-setuper.addNewProject",
+				"command": "project-template.addNewProject",
 				"title": "Add Project"
 			},
 			{
-				"command": "project-setuper.editProject",
+				"command": "project-template.editProject",
 				"title": "Edit Project"
 			},
 			{
-				"command": "project-setuper.deleteProject",
+				"command": "project-template.deleteProject",
 				"title": "Delete Project"
 			}
 		]
