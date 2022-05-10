@@ -11,6 +11,14 @@
 		"setuper",
 		"folder struct"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/boro8eyy/project-setuper.git"
+	},
+	"bugs": {
+		"url": "https://github.com/boro8eyy/project-setuper/issues",
+		"email": "bogdanhohlov1976@gmail.com"
+	},
 	"engines": {
 		"vscode": "^1.66.0"
 	},
